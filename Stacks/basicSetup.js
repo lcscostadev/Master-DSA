@@ -168,3 +168,22 @@ console.log(stack.isEmpty()); // false
 stack.clear();
 
 console.log(stack.isEmpty()); // true
+
+// Basic setup with array methods
+
+class Stack {
+    #items = [];
+    push = (element) => this.#items.push(element);
+    pop = () => this.#items.pop();
+    isempty = () => this.#items.length === 0;
+    empty = () => (this.#items.length = 0);
+    size = () => this.#items.length;
+}
+
+const stacks = new Stack();
+stacks.push(1);
+stacks.push(2);
+stacks.push(3);
+console.log(stacks.size()); //3
+console.log(stacks.pop()); //[ 3 ]
+console.log(stacks.size()); //2

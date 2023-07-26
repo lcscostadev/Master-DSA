@@ -29,7 +29,7 @@ goBack();
  * Basic walkthrough
  * 
  * creating an empty array of browser history to simulate an browser history
- * we know that Stacks are LIFO, Last in First out, so we going to use on that operation, push() and pop()
+ * we know that Stacks are LIFO, Last in First out, so we are going to use on that operation, push() and pop()
  * 
  * in our first function, we just need to push the URL that were in, pass an parameter URL and push it to the empty array. its very common to console log the url.
  * 
